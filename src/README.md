@@ -1,1 +1,0 @@
-# mandel-gpu-stream-parallelism
