@@ -256,7 +256,7 @@ int main(int argc, char **argv) {
         clGetDeviceInfo(devices[0], CL_DEVICE_MAX_WORK_GROUP_SIZE, sizeof(workGroupSize), &workGroupSize, NULL);
         size_t block_size = workGroupSize; //max threads per block
 
-        int batches = ceil(dim/batch_size);
+        int batches = ceil((double)dim/batch_size);
 
         int dimensions = 1;
         size_t Nblocks = ceil((double)(dim*batch_size) / block_size);

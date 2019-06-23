@@ -211,7 +211,7 @@ void mandel(int block_size,int dim,double init_b,double init_a,int niter,double 
 	_Stage_spar00_call.add_emitter(_ToStream_spar0_call); 
 	ff_node_F < _struct_spar0 > _Stage_spar01_call (_Stage_spar01); 
 	_Stage_spar00_call.add_collector(_Stage_spar01_call); 
-	int batches = ceil(dim / batch_size); 
+	int batches = ceil((double)dim / batch_size); 
 	_ToStream_spar0_call.batches = batches; 
 	_ToStream_spar0_call.dim = dim; 
 	_ToStream_spar0_call.init_a = init_a; 
