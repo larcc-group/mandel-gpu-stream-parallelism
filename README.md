@@ -8,12 +8,12 @@ Rockenbach, D. A.; Stein, C. M.; Griebler, D.; Mencagli, G.; Torquati, M.; Danel
     author={Dinei A. Rockenbach and Charles M. Stein and Dalvan Griebler and Gabriele Mencagli and Massimo Torquati and Marco Danelutto and Luiz Gustavo Fernandes},
     title={{Stream Processing on Multi-Cores with GPUs: Parallel Programming Models' Challenges}},
     booktitle={IEEE International Parallel and Distributed Processing Symposium Workshops (IPDPSW)},
-    pages={},
+    pages={834-841},
     year={2019},
     address={Rio de Janeiro, Brazil},
     month={May},
     publisher={IEEE},
-    doi={},
+    doi={10.1109/IPDPSW.2019.00137},
 }
 ```
 
