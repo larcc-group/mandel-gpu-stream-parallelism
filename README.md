@@ -14,6 +14,7 @@ Rockenbach, D. A.; Stein, C. M.; Griebler, D.; Mencagli, G.; Torquati, M.; Danel
     month={May},
     publisher={IEEE},
     doi={10.1109/IPDPSW.2019.00137},
+    url={https://ieeexplore.ieee.org/document/8778359},
 }
 ```
 
