@@ -11,7 +11,7 @@ authors:
     given-names: Dalvan
 abstract: "This repository has the parallel and sequential implementations for the Mandelbrot Streaming pseudo application. We introduced stream parallelism for CPU (using SPar, TBB and FastFlow) and GPU (using CUDA and OpenCL)."
 title: "Implementations for the Mandelbrot Streaming with stream parallelism for CPU (using SPar, TBB and FastFlow) and GPU (using CUDA and OpenCL)"
-message: "If you use this software, please cite the article from preferred-citation."
+message: "Please cite this software using the metadata from 'preferred-citation'."
 preferred-citation:
   authors:
     - family-names: Rockenbach
