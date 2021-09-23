@@ -34,9 +34,10 @@ preferred-citation:
       name-particle: Gustavo
   abstract: "The stream processing paradigm is used in several scientific and enterprise applications in order to continuously compute results out of data items coming from data sources such as sensors. The full exploitation of the potential parallelism offered by current heterogeneous multi-cores equipped with one or more GPUs is still a challenge in the context of stream processing applications. In this work, our main goal is to present the parallel programming challenges that the programmer has to face when exploiting CPUs and GPUs' parallelism at the same time using traditional programming models. We highlight the parallelization methodology in two use-cases (the Mandelbrot Streaming benchmark and the PARSEC's Dedup application) to demonstrate the issues and benefits of using heterogeneous parallel hardware. The experiments conducted demonstrate how a high-level parallel programming model targeting stream processing like the one offered by SPar can be used to reduce the programming effort still offering a good level of performance if compared with state-of-the-art programming models."
   identifiers:
-    - description: "DOI for acessing the article"
-      type: doi
+    - type: doi
       value: "10.1109/IPDPSW.2019.00137"
+    - type: url
+      value: "https://ieeexplore.ieee.org/document/8778359"
   type: conference-paper
   title: "Stream Processing on Multi-Cores with GPUs: Parallel Programming Models' Challenges"
   conference:
