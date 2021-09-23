@@ -1,0 +1,50 @@
+cff-version: 1.2.0
+authors:
+  - family-names: Rockenbach
+    given-names: "Dinei A."
+    affiliation: "Laboratory of Advanced Research on Cloud Computing (LARCC)"
+    orcid: "https://orcid.org/0000-0002-2091-9626"
+    alias: dineiar
+  - family-names: Stein
+    given-names: Charles
+  - family-names: Griebler
+    given-names: Dalvan
+abstract: "This repository has the parallel and sequential implementations for the Mandelbrot Streaming pseudo application. We introduced stream parallelism for CPU (using SPar, TBB and FastFlow) and GPU (using CUDA and OpenCL)."
+title: "Implementations for the Mandelbrot Streaming with stream parallelism for CPU (using SPar, TBB and FastFlow) and GPU (using CUDA and OpenCL)"
+message: "If you use this software, please cite the article from preferred-citation."
+preferred-citation:
+  authors:
+    - family-names: Rockenbach
+      given-names: "Dinei A."
+      affiliation: "Laboratory of Advanced Research on Cloud Computing (LARCC)"
+      orcid: "https://orcid.org/0000-0002-2091-9626"
+      alias: dineiar
+    - family-names: Stein
+      given-names: Charles
+    - family-names: Griebler
+      given-names: Dalvan
+    - family-names: Mencagli
+      given-names: Gabriele
+    - family-names: Torquati
+      given-names: Massimo
+    - family-names: Danelutto
+      given-names: Marco
+    - family-names: Fernandes
+      given-names: Luiz
+      name-particle: Gustavo
+  abstract: "The stream processing paradigm is used in several scientific and enterprise applications in order to continuously compute results out of data items coming from data sources such as sensors. The full exploitation of the potential parallelism offered by current heterogeneous multi-cores equipped with one or more GPUs is still a challenge in the context of stream processing applications. In this work, our main goal is to present the parallel programming challenges that the programmer has to face when exploiting CPUs and GPUs' parallelism at the same time using traditional programming models. We highlight the parallelization methodology in two use-cases (the Mandelbrot Streaming benchmark and the PARSEC's Dedup application) to demonstrate the issues and benefits of using heterogeneous parallel hardware. The experiments conducted demonstrate how a high-level parallel programming model targeting stream processing like the one offered by SPar can be used to reduce the programming effort still offering a good level of performance if compared with state-of-the-art programming models."
+  identifiers:
+    - description: "DOI for acessing the article"
+      type: doi
+      value: "10.1109/IPDPSW.2019.00137"
+  type: conference-paper
+  title: "Stream Processing on Multi-Cores with GPUs: Parallel Programming Models' Challenges"
+  conference:
+    name: "IEEE International Parallel and Distributed Processing Symposium Workshops (IPDPSW)"
+    country: BR
+    region: Rio de Janeiro
+  year: 2019
+  pages: 8
+  database: "IEEE"
+  repository-code: "https://github.com/larcc-group/mandel-gpu-stream-parallelism"
+date-released: "2019-07-19"
